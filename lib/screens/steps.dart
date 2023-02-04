@@ -7,13 +7,12 @@ class Steps extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('هندسة تقنيات الحاسوب'),
+        title: const Text('هندسة تقنيات الحاسوب'),
       ),
-      body: Center(
+      body: const Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
-
-          children: const [
+          children: [
             Card(
               child: SizedBox(
                 width: 300,
